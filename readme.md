@@ -6,7 +6,7 @@ This utilizes the `anvil` package to write the .mca files.  Use `pip install anv
 
 The generated region consists of planetoids, inspired by [the original](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/1260575-new-map-generator-planetoids-v1-75-now-up) map generator.
 
-Currently, there are no known issues with this generator.  However, attempting to add other wood types or nether blocks to the generation process corrupts the region files.  I don't know how to fix this.
+Currently, there are no known issues with this generator.  However, attempting to add nether blocks, dirt-like blocks blocks, or other wood types to the generation process corrupts the region files.  I don't know how to fix this or why it happens.
 
 ## Usage
 
