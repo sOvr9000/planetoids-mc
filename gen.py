@@ -109,6 +109,9 @@ def generate_planetoids(
             Block('minecraft', 'air'),
             Block('minecraft', 'stone'),
             Block('minecraft', 'cobblestone'),
+            # Block('minecraft', 'dirt'),
+            # Block('minecraft', 'coarse_dirt'),
+            # Block('minecraft', 'grass_block'),
             Block('minecraft', 'iron_ore'),
             Block('minecraft', 'coal_ore'),
             Block('minecraft', 'gold_ore'),
@@ -147,6 +150,7 @@ def generate_planetoids(
         planetoid_type_weights = {
             'tree': 12,
             # 'nether_tree': 2,
+            # 'grass': 6,
             'iron': 4,
             'coal': 5,
             'gold': 1,
@@ -180,6 +184,9 @@ def generate_planetoids(
         # 'nether_tree': [
         #     (['netherrack', 'nether_bricks'], 'crimson_hyphae'),
         #     (['netherrack', 'nether_bricks'], 'warped_hyphae'),
+        # ],
+        # 'grass': [
+        #     (['dirt', 'coarse_dirt'], 'grass_block'),
         # ],
         # 'glowstone': [
         #     # (['nether_bricks', 'netherrack'], 'glowstone'),
