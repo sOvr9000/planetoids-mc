@@ -11,16 +11,26 @@ Currently, there are no known issues with this generator.  However, attempting t
 ## Usage
 
 Use default options:
-> python gen.py
+```console
+python gen.py
+```
 
 Show help:
-> python gen.py -h
+```console
+python gen.py -h
+```
 
 Command syntax:
-> python gen.py [-h] [--region-coords REGION_COORDS] [--radius-min RADIUS_MIN] [--radius-max RADIUS_MAX] [--num-planetoids NUM_PLANETOIDS] [--out-dir OUT_DIR]
+```console
+python gen.py [-h] [--region-coords REGION_COORDS] [--radius-min RADIUS_MIN] [--radius-max RADIUS_MAX] [--num-planetoids NUM_PLANETOIDS] [--out-dir OUT_DIR]
+```
 
 Example parameters (the defaults):
-> python gen.py --region-coords "0 0" --radius-min 5 --radius-max 13 --num-planetoids 128 --out-dir ./region
+```console
+python gen.py --region-coords "0 0" --radius-min 5 --radius-max 13 --num-planetoids 128 --out-dir ./region
+```
 
-Write the file directly into a Minecraft world (reload to see effect):
-> python gen.py --out-dir PATH/TO/WORLD/region
+Write the file directly into a Minecraft world (reload world to see effect):
+```console
+python gen.py --out-dir PATH/TO/WORLD/region
+```
