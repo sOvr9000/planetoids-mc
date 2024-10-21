@@ -30,7 +30,7 @@ Example parameters (the defaults):
 python gen.py --region-coords "0 0" --radius-min 5 --radius-max 13 --num-planetoids 128 --out-dir ./region
 ```
 
-Write the file directly into a Minecraft world (reload world to see effect):
+Write the file directly into a Minecraft world (reload world to see effect, and **NOTE** that this overwrites everything in all affected chunks):
 ```console
 python gen.py --out-dir PATH/TO/WORLD/region
 ```
